@@ -4,17 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{{ config.title }}</title>
     <meta name="author" content="{{ config.extra.author }}">
     <meta name="description" content="{{ config.description }}">
+
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
 </head>
 <body>
-    <header>
-        {% block header %}{% endblock %}
-    </header>
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-    <footer>Created with <a href="https://www.getzola.org/">Zola</a></footer>
+    <div class="wrapper">
+        <header>
+            {% block header %}{% endblock %}
+        </header>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <hr>
+        <footer>Created with <a href="https://www.getzola.org/">Zola</a></footer>
+    </div>
 </body>
 </html>

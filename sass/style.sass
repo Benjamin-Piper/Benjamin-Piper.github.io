@@ -1,0 +1,69 @@
+@import "_reset"
+@use "sass:math"
+
+$accent-color: #0284C7
+$heading-color: #0F172A
+$text-color: #334155
+$spacing: 2rem
+
+body
+    background-color: #F1F5F9
+    color: $text-color
+
+.wrapper
+    padding: 0 0.5rem
+    margin: 0 auto
+    max-width: 56rem
+
+header
+    p
+        margin-top: $spacing / 2
+        margin-bottom: $spacing
+
+main
+    margin-top: $spacing / 2
+
+footer
+    margin-bottom: $spacing / 2
+
+hr
+    background-color: $text-color
+    margin: $spacing 0
+
+h1
+    color: $heading-color
+
+a
+    color: $accent-color
+    text-decoration: none
+
+blockquote
+    border-left: 0.25rem solid $heading-color
+    padding-left: $spacing / 2
+
+.acrostic
+    color: $accent-color
+    font-weight: 700
+    font-size: 1.5rem
+    line-height: $spacing
+
+.back-button
+    display: block
+    font-size: 150%
+    line-height: 1
+    padding: 0
+    margin-top: 0.5rem
+
+.video-container
+    position: relative
+    width: 100%
+    height: 0
+    padding-bottom: 56.25%
+    margin: 1.5rem 0
+
+    iframe
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
