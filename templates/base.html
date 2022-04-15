@@ -1,0 +1,20 @@
+{% import "macros.html" as macros %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ config.title }}</title>
+    <meta name="author" content="{{ config.extra.author }}">
+    <meta name="description" content="{{ config.description }}">
+</head>
+<body>
+    <header>
+        {% block header %}{% endblock %}
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>Created with <a href="https://www.getzola.org/">Zola</a></footer>
+</body>
+</html>

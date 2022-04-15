@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block header %}
+<h1>Benjamin Piper</h1>
+Welcome! I write my thoughts here. I don't cover anything specific because the
+goal is to express myself honestly. Any viewer that takes the time to flick
+through my posts should come away with a better idea of how I organise these
+thoughts, what I value, and what I think should be improved.
+{% endblock %}
+
+{% block content %}
+<ul>
+    {% for post in section.pages %}
+    <li>
+        <a href="{{ post.permalink | safe}}">{{ post.title }}</a>
+        <small>{{ macros::format_date(date=post.date) }}</small>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

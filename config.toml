@@ -1,0 +1,9 @@
+base_url = "https://Benjamin-Piper.github.io"
+
+title = "Benjamin Piper"
+description = "I write my thoughts here."
+
+compile_sass = true
+
+[extra]
+author = "Benjamin Piper"

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block header %}
+<h1>Sorry</h1>
+<p>
+    I couldn't find the page you were looking for. Here's the link back 
+    to <a href="/blog">the blog</a>. You might also be interested in what these
+    words have to say:
+</p>
+{% endblock %}
+
+{% block content %}
+{% for word in [
+    "Fiction",
+    "Often",
+    "Uses",
+    "Rhetoric,",
+    "",
+    "Occasionally",
+    "Humans",
+    "",
+    "Find",
+    "Order",
+    "Upon",
+    "Reflections",
+] %}
+    <div>
+        {% if word|length != 0 %}
+            <span class="acrostic">{{ word | truncate(length=1, end="") }}</span>
+            {{- word | split(pat="") | slice(start=2) | join(sep="") -}}
+        {% else %}
+            <br />
+        {% endif %}
+    </div>
+{% endfor %}
+{% endblock content %}
