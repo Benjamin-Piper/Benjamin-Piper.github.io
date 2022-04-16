@@ -7,7 +7,7 @@ date = 2022-04-15
 This blog is for my thoughts, so I'll be stating my opinion a lot.
 I will do my very best to make this as explicit as possible, i.e., you will see
 frequent use of ‘I’ and ‘my’. I am constantly growing and learning so I want to
-encourage sceptisim in these posts. Here's a clip of Bill Burr:
+encourage scepticism in these posts. Here's a clip of Bill Burr:
 
 {{ youtube(id="znI046F4FKg", start=121, end=145) }}
 
