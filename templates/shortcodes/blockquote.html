@@ -1,4 +1,5 @@
 <blockquote {% if url %}cite="{{url}}"{% endif %}>
-    {{ body }}
-    {% if author %}<cite>― {{author}}</cite>{% endif %}
+{% for paragraph in body | split(pat="//") | safe %}
+    <p>{{ paragraph | safe }}</p>
+{% endfor %}
 </blockquote>

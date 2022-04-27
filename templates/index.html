@@ -13,7 +13,7 @@
 {% block content %}
 <ul>
     {% for post in section.pages %}
-    <li>
+    <li class="post-link">
         <a href="{{ post.permalink | safe}}">{{ post.title }}</a>
         <small>{{ macros::format_date(date=post.date) }}</small>
     </li>

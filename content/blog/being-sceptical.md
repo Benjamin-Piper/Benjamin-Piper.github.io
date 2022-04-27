@@ -9,11 +9,7 @@ I will do my very best to make this as explicit as possible, i.e., you will see
 frequent use of ‘I’ and ‘my’. I am constantly growing and learning so I want to
 encourage scepticism in these posts. Here's a clip of Bill Burr:
 
-{{ youtube(id="znI046F4FKg", start=121, end=145) }}
-
-And for those that can't watch:
-
-{% blockquote(author="Bill Burr") %}
+{% youtube(id="znI046F4FKg", start=121, end=145) %}
 The library has the decency to break up information between non-fiction and
 fiction ... you go on the internet, everything is presented as non-fiction ...
 {% end %}
