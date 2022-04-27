@@ -54,7 +54,7 @@ Michael Hendricks:
 {% youtube(id="G_eYTctGZw8", start=1551, end=1593) %}
 Let's imagine you define some constraints. Your business maybe ships on Monday
 through Saturday and the U.S. Postal Service operates most Monday through 
-Saturdays, but some of them don't because it's a holiday.
+Saturdays, but some of them they don't because it's a holiday.
 //
 You have these two independent constraints that define your shipping logic and 
 that define the Postal Service calendar and I want to know on what two days do 
@@ -83,7 +83,7 @@ combined with such terseness enables concise expressesion of computation. Aaron
 Hsu remarks in
 [this blog post](https://www.sacrideo.us/un-structured-programming/) that in APL
 he can make multiple sketches of approaching a problem and view them all at once
-on the screen. I think this quote from A.N. Whitehead neatly sums this up:
+on the screen. I think this quote from A. N. Whitehead neatly sums this up:
 
 {% blockquote(url="https://quod.lib.umich.edu/u/umhistmath/AAW5995.0001.001") %}
 By relieving the brain of all unnecessary work, a good notation sets it free to
@@ -119,6 +119,13 @@ depression, the urge to yawn, the glee of gossip, reassuring your hairdresser,
 delight at the changing of the seasons, the urge to hoard, or the ineffable
 pleasure of a cold pillow?
 {% end %}
+
+This blurb also reminds me of
+[The Dictionary of Obscure Sorrows](https://www.dictionaryofobscuresorrows.com/archive)
+where the words denote specific experiences. Having these words makes it easier
+to talk about these experiences. One example is sonder: the realisation that
+everyone has a story (although I do not believe this is a sorrow but rather
+something to be celebrated, everyone is a main character).
 
 [Lojban](https://lojban.io) is an artificial language and its grammar is 
 completely different to anything I've seen. It's inspired by predicate logic, 
