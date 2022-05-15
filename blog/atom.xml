@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Benjamin Piper</title>
+	<subtitle>I write my thoughts here.</subtitle>
+	<link href="https://Benjamin-Piper.github.io/blog/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://Benjamin-Piper.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-04-27T00:00:00+00:00</updated>
+	<id>https://Benjamin-Piper.github.io/blog/atom.xml</id>
+        <entry xml:lang="en">
+            <title>Diversifying the Toolset</title>
+            <author><name>Benjamin Piper</name></author>
+            <published>2022-04-27T00:00:00+00:00</published>
+            <updated>2022-04-27T00:00:00+00:00</updated>
+            <link href="https://Benjamin-Piper.github.io/blog/diversifying-the-toolset/"/>
+            <link rel="alternate" href="https://Benjamin-Piper.github.io/blog/diversifying-the-toolset/" type="text/html"/>
+            <id>https://Benjamin-Piper.github.io/blog/diversifying-the-toolset/</id>
+            <summary type="html">‘I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail’ ― Abraham Maslow</summary>
+            <content type="html">&lt;p&gt;For the past couple years I&#x27;ve been really interested in using or at least
+knowing about different tools for different jobs. I decided to write this post
+because this topic popped up in my work (I currently write code for a living),
+but it&#x27;s actually applicable everywhere.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;in-handiwork&quot;&gt;In Handiwork&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Law_of_the_instrument&quot;&gt;The Law of the instrument&lt;&#x2F;a&gt;
+summarises this post. According to Wikipedia, it is attributed to both Abraham 
+Kaplan and Abraham Maslow. I prefer the latter Abraham&#x27;s variant:&lt;&#x2F;p&gt;
+&lt;blockquote cite=&quot;https:&amp;#x2F;&amp;#x2F;philpapers.org&amp;#x2F;rec&amp;#x2F;MASTPO-14&quot;&gt;
+
+    &lt;p&gt;I suppose it is tempting, if the only tool you have is a hammer, to treat
+everything as if it were a nail.&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I think that bolts and screws look like nails. All have flat heads and narrow 
+bodies. A screw may also have a pointed end. Now I haven&#x27;t actually done this,
+but I&#x27;m sure you could hammer in certain screws and bolts—if you were careful 
+about it.&lt;&#x2F;p&gt;
+&lt;p&gt;But if I had a screwdriver and a screw that wasn&#x27;t
+&lt;a href=&quot;https:&#x2F;&#x2F;www.homedepot.com&#x2F;c&#x2F;ah&#x2F;how-to-remove-a-stripped-screw&#x2F;9ba683603be9fa5395fab90160abf30b&quot;&gt;stripped&lt;&#x2F;a&gt;,
+I wouldn&#x27;t use a hammer. I would use the more appropriate tool for the job.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;in-programming-languages&quot;&gt;In Programming Languages&lt;&#x2F;h2&gt;
+&lt;p&gt;I see this same idea with programming languages. Sure, you could write every 
+program using a general-purpose language like &lt;a href=&quot;https:&#x2F;&#x2F;www.python.org&#x2F;&quot;&gt;Python&lt;&#x2F;a&gt;, 
+but should you?&lt;&#x2F;p&gt;
+&lt;p&gt;There are multiple programming languages that can be classified into multiple
+programming paradigms. I am using The Indicative Team&#x27;s definition of a
+programming paradigm:&lt;&#x2F;p&gt;
+&lt;blockquote cite=&quot;https:&amp;#x2F;&amp;#x2F;www.indicative.com&amp;#x2F;resource&amp;#x2F;programming-paradigm&amp;#x2F;&quot;&gt;
+
+    &lt;p&gt;A programming paradigm is the classification, style or way of programming. It is
+an approach to solve problems by using programming languages. Depending on the 
+language, the difficulty of using a paradigm differs.&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.swi-prolog.org&#x2F;&quot;&gt;Prolog&lt;&#x2F;a&gt; is a programming language well-suited to 
+the logic programming paradigm. One can easily query about and solve
+well-defined problems by specifying facts and rules. This isn&#x27;t limited to 
+logic puzzles, but any system governed by constraints. Here&#x27;s one example from
+Michael Hendricks:&lt;&#x2F;p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+    &lt;iframe
+        src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;G_eYTctGZw8?start=1551&amp;end=1593&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;And for those that can&#x27;t watch:&lt;&#x2F;p&gt;
+
+
+&lt;blockquote &gt;
+
+    &lt;p&gt;Let&amp;#x27;s imagine you define some constraints. Your business maybe ships on Monday
+through Saturday and the U.S. Postal Service operates most Monday through 
+Saturdays, but some of them they don&amp;#x27;t because it&amp;#x27;s a holiday.
+&lt;&#x2F;p&gt;
+
+    &lt;p&gt;
+You have these two independent constraints that define your shipping logic and 
+that define the Postal Service calendar and I want to know on what two days do 
+those coincide.
+&lt;&#x2F;p&gt;
+
+    &lt;p&gt;
+I simply combine those constraints, I simply say these constraints must be true
+and these constraints must also be true. Then you can query it for things like 
+‘is today a shipping day?’, what about ‘is tomorrow a shipping day?’, ‘how many
+shipping days are there between now and Christmas?’.
+&lt;&#x2F;p&gt;
+
+    &lt;p&gt;
+Those same logical constraints you can solve in all those different ways to get
+some really really cool stuff.&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If the facts you&#x27;re dealing with have probability you can go to the probability 
+paradigm and use a language like &lt;a href=&quot;https:&#x2F;&#x2F;dtai.cs.kuleuven.be&#x2F;problog&#x2F;&quot;&gt;ProbLog&lt;&#x2F;a&gt;.
+The tutorial on ProbLog&#x27;s website starts off with tossing coins and takes you
+through to Bayesian networks.&lt;&#x2F;p&gt;
+&lt;p&gt;The language &lt;a href=&quot;https:&#x2F;&#x2F;tryapl.org&#x2F;&quot;&gt;APL&lt;&#x2F;a&gt; is array-oriented. That
+is, anything you can do on a single number you can do on an array of any
+dimension: no loops required. APL also represents all of its primitive functions
+mnemonically by using unique glyphs. E.g. the glyph to represent natural log is
+⍟, which resembles a cross-section of a log! The ease of working with arrays
+combined with such terseness enables concise expressesion of computation. Aaron 
+Hsu remarks in
+&lt;a href=&quot;https:&#x2F;&#x2F;www.sacrideo.us&#x2F;un-structured-programming&#x2F;&quot;&gt;this blog post&lt;&#x2F;a&gt; that in APL
+he can make multiple sketches of approaching a problem and view them all at once
+on the screen. I think this quote from A. N. Whitehead neatly sums this up:&lt;&#x2F;p&gt;
+&lt;blockquote cite=&quot;https:&amp;#x2F;&amp;#x2F;quod.lib.umich.edu&amp;#x2F;u&amp;#x2F;umhistmath&amp;#x2F;AAW5995.0001.001&quot;&gt;
+
+    &lt;p&gt;By relieving the brain of all unnecessary work, a good notation sets it free to
+concentrate on more advanced problems, and in effect increases the mental power
+of the race.&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Some languages like
+&lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;javascript&quot;&gt;JavaScript&lt;&#x2F;a&gt; are 
+multi-paradigm. One can write in the (prototype-based) object-oriented style by
+defining properties and methods in a function or class and then instantiating
+them. Or write in the functional style as functions are first-class citizens,
+they can be treated as data as well, so you can store them in variables and pass
+them around like any other type.&lt;&#x2F;p&gt;
+&lt;p&gt;Personally, I like to use the functional approach when I can. I understand
+when object-oriented succeeds, but I believe that using lots of small 
+&lt;a href=&quot;https:&#x2F;&#x2F;www.30secondsofcode.org&#x2F;articles&#x2F;s&#x2F;javascript-pure-functions&quot;&gt;pure functions&lt;&#x2F;a&gt;
+leads to more predictable and testable code.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;in-spoken-languages&quot;&gt;In Spoken Languages&lt;&#x2F;h2&gt;
+&lt;p&gt;I view languages as tools of expression. What can be said in one might be more
+easily expressed in another. Just the blurb of the book &lt;cite&gt;Schottenfreude: 
+German Words for the Human Condition&lt;&#x2F;cite&gt; stated things that I&#x27;ve never thought
+of expressing:&lt;&#x2F;p&gt;
+&lt;blockquote cite=&quot;https:&amp;#x2F;&amp;#x2F;www.goodreads.com&amp;#x2F;book&amp;#x2F;show&amp;#x2F;17707491-schottenfreude&quot;&gt;
+
+    &lt;p&gt;In what other language but German could you construct &lt;em&gt;le mot juste&lt;&#x2F;em&gt; for
+a secret love of bad foods, the inability to remember jokes, Sunday-afternoon
+depression, the urge to yawn, the glee of gossip, reassuring your hairdresser,
+delight at the changing of the seasons, the urge to hoard, or the ineffable
+pleasure of a cold pillow?&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This blurb also reminds me of
+&lt;a href=&quot;https:&#x2F;&#x2F;www.dictionaryofobscuresorrows.com&#x2F;archive&quot;&gt;The Dictionary of Obscure Sorrows&lt;&#x2F;a&gt;
+where the words denote specific experiences. Having these words makes it easier
+to talk about these experiences. One example is sonder: the realisation that
+everyone has a story (although I do not believe this is a sorrow but rather
+something to be celebrated, everyone is a main character).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lojban.io&quot;&gt;Lojban&lt;&#x2F;a&gt; is an artificial language and its grammar is 
+completely different to anything I&#x27;ve seen. It&#x27;s inspired by predicate logic, 
+being mainly made up of relations, arguments, and helper-particles. There are no
+nouns, verbs, or any part of speech you&#x27;d expect from a natural 
+language, but Lojban uses relations to act as them depending on the sentence. By
+design, Lojban is syntactically unambiguous, culturally neutral, has a rich 
+attitudinal system for expressing emotions, and more that I won&#x27;t mention in 
+this post.&lt;&#x2F;p&gt;
+&lt;p&gt;I think its syntactic unambiguity makes it a good auxiliary language when 
+precision is required. There was actually a
+&lt;a href=&quot;https:&#x2F;&#x2F;mail.lojban.org&#x2F;lists&#x2F;lojban-list&#x2F;msg11837.html&quot;&gt;lobby&lt;&#x2F;a&gt; for it to be 
+used this way in the European Patent Office.&lt;&#x2F;p&gt;
+&lt;p&gt;I believe that the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Linguistic_relativity&quot;&gt;Sapir-Whorf hypothesis&lt;&#x2F;a&gt; is true in a weak sense, that languages influence the 
+thought of the speaker. I currently know a decent amount of Hungarian, and I&#x27;m 
+learning Lojban. I believe that this knowledge has increased my expressive power
+and how I structure my thoughts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;in-summary&quot;&gt;In Summary&lt;&#x2F;h2&gt;
+&lt;p&gt;These lists could go on and on. I hope now that you can look at any discipline
+and see the different tools that can be used.&lt;&#x2F;p&gt;
+&lt;p&gt;The takeaway is that even if you mostly use one tool, I believe that you will
+benefit from knowing that other tools exist. That way you can call on this
+knowledge when facing wicked problems.&lt;&#x2F;p&gt;
+</content>
+        </entry>
+        <entry xml:lang="en">
+            <title>Being Sceptical</title>
+            <author><name>Benjamin Piper</name></author>
+            <published>2022-04-15T00:00:00+00:00</published>
+            <updated>2022-04-15T00:00:00+00:00</updated>
+            <link href="https://Benjamin-Piper.github.io/blog/being-sceptical/"/>
+            <link rel="alternate" href="https://Benjamin-Piper.github.io/blog/being-sceptical/" type="text/html"/>
+            <id>https://Benjamin-Piper.github.io/blog/being-sceptical/</id>
+            <summary type="html">All of my factual statements should be cited, otherwise they are opinions.</summary>
+            <content type="html">&lt;p&gt;This blog is for my thoughts, so I&#x27;ll be stating my opinion a lot.
+I will do my very best to make this as explicit as possible, i.e., you will see
+frequent use of ‘I’ and ‘my’. I am constantly growing and learning so I want to
+encourage scepticism in these posts. Here&#x27;s a clip of Bill Burr:&lt;&#x2F;p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+    &lt;iframe
+        src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;znI046F4FKg?start=121&amp;end=145&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;And for those that can&#x27;t watch:&lt;&#x2F;p&gt;
+
+
+&lt;blockquote &gt;
+
+    &lt;p&gt;The library has the decency to break up information between non-fiction and
+fiction ... you go on the internet, everything is presented as non-fiction ...&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The &lt;em&gt;last&lt;&#x2F;em&gt; thing I want is the public misconstruing my subjective viewpoint as
+facts.&lt;&#x2F;p&gt;
+&lt;p&gt;When I do make factual statements, I&#x27;ll endeavour to back them up with citations.
+I&#x27;ve made the decision to not use comments on this blog so please ignore such
+statements if I&#x27;ve failed to do this.&lt;&#x2F;p&gt;
+&lt;p&gt;I also think it&#x27;s worth mentioning that I&#x27;m trying to stop myself from saying
+things like ‘I am [adjective]’ or ‘I am a [noun]’. This is because I don&#x27;t want
+to limit myself with labels. I believe the only label anyone deserves is
+individual. We are all individuals. What we do as individuals may differ but I 
+don&#x27;t believe that defines who we are.&lt;&#x2F;p&gt;
+</content>
+        </entry>
+</feed>
