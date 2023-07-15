@@ -37,6 +37,23 @@ a
     color: $accent-color
     text-decoration: none
 
+li
+    list-style-position: inside
+    margin-bottom: 0.5rem
+    
+ul
+    margin: 1.5rem 0
+    li
+        list-style-type: disc
+        
+    li.post-link
+        list-style-type: none
+        margin-bottom: $spacing / 2
+
+        a
+            display: block
+
+
 blockquote
     border-left: 0.25rem solid $heading-color
     padding-left: $spacing / 2
@@ -53,12 +70,6 @@ blockquote
     line-height: 1
     padding: 0
     margin-top: 0.5rem
-
-.post-link
-    margin-bottom: $spacing / 2
-
-    a
-        display: block
 
 .video-container
     position: relative
