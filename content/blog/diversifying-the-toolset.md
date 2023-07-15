@@ -26,7 +26,7 @@ but I'm sure you could hammer in certain screws and bolts—if you were careful
 about it.
 
 But if I had a screwdriver and a screw that wasn't
-[stripped](https://www.homedepot.com/c/ah/how-to-remove-a-stripped-screw/9ba683603be9fa5395fab90160abf30b),
+[stripped](https://www.bobvila.com/articles/how-to-remove-a-stripped-screw/),
 I wouldn't use a hammer. I would use the more appropriate tool for the job.
 
 ## In Programming Languages
