@@ -43,8 +43,28 @@ footer, header, iframe, main, nav, section
 blockquote
     margin: 1.75rem 0
 
-ol, ul
+details
+    margin: 0.75rem 0
+    cursor: pointer
+
+details:first-of-type
+    margin-top: 1.75rem
+details:last-of-type
+    margin-bottom: 1.75rem
+
+ol
     list-style: none
+
+li
+    list-style-position: inside
+    margin-bottom: 0.5rem
+    
+ul
+    margin: 1.75rem 0
+    li
+        list-style-type: disc    
+        a
+            display: block
 
 p
     margin-top: 1.25rem
