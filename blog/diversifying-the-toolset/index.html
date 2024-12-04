@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Benjamin Piper</title>
+    <meta name="author" content="Benjamin Piper">
+    <meta name="description" content="I write my thoughts here.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            
+<a class="back-button" href="/blog">⬅️</a>
+<h1>Diversifying the Toolset</h1>
+<small>Published 
+<time datetime="2022-04-27">27 April 2022</time>
+</small>
+
+        </header>
+        <main>
+            
+<article>
+    <p>For the past couple years I've been really interested in using or at least
+knowing about different tools for different jobs. I decided to write this post
+because this topic popped up in my work (I currently write code for a living),
+but it's actually applicable everywhere.</p>
+<h2 id="in-handiwork">In Handiwork</h2>
+<p><a href="https://en.wikipedia.org/wiki/Law_of_the_instrument">The Law of the instrument</a>
+summarises this post. According to Wikipedia, it is attributed to both Abraham
+Kaplan and Abraham Maslow. I prefer the latter Abraham's variant:</p>
+<blockquote cite="https:&#x2F;&#x2F;philpapers.org&#x2F;rec&#x2F;MASTPO-14">
+
+    <p>I suppose it is tempting, if the only tool you have is a hammer, to treat
+everything as if it were a nail.</p>
+
+</blockquote>
+<p>I think that bolts and screws look like nails. All have flat heads and narrow
+bodies. A screw may also have a pointed end. Now I haven't actually done this,
+but I'm sure you could hammer in certain screws and bolts—if you were careful
+about it.</p>
+<p>But if I had a screwdriver and a screw that wasn't
+<a href="https://www.bobvila.com/articles/how-to-remove-a-stripped-screw/">stripped</a>,
+I wouldn't use a hammer. I would use the more appropriate tool for the job.</p>
+<h2 id="in-programming-languages">In Programming Languages</h2>
+<p>I see this same idea with programming languages. Sure, you could write every
+program using a general-purpose language like <a href="https://www.python.org/">Python</a>,
+but should you?</p>
+<p>There are multiple programming languages that can be classified into multiple
+programming paradigms. I am using The Indicative Team's definition of a
+programming paradigm:</p>
+<blockquote cite="https:&#x2F;&#x2F;www.indicative.com&#x2F;resource&#x2F;programming-paradigm&#x2F;">
+
+    <p>A programming paradigm is the classification, style or way of programming. It is
+an approach to solve problems by using programming languages. Depending on the 
+language, the difficulty of using a paradigm differs.</p>
+
+</blockquote>
+<p><a href="https://www.swi-prolog.org/">Prolog</a> is a programming language well-suited to
+the logic programming paradigm. One can easily query about and solve
+well-defined problems by specifying facts and rules. This isn't limited to
+logic puzzles, but any system governed by constraints. Here's one example from
+Michael Hendricks:</p>
+<div class="video-container">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/G_eYTctGZw8?start=1551&end=1593"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen>
+    </iframe>
+</div>
+<p>And for those that can't watch:</p>
+
+
+<blockquote >
+
+    <p>Let&#x27;s imagine you define some constraints. Your business maybe ships on Monday
+through Saturday and the U.S. Postal Service operates most Monday through 
+Saturdays, but some of them they don&#x27;t because it&#x27;s a holiday.
+</p>
+
+    <p>
+You have these two independent constraints that define your shipping logic and 
+that define the Postal Service calendar and I want to know on what two days do 
+those coincide.
+</p>
+
+    <p>
+I simply combine those constraints, I simply say these constraints must be true
+and these constraints must also be true. Then you can query it for things like 
+‘is today a shipping day?’, what about ‘is tomorrow a shipping day?’, ‘how many
+shipping days are there between now and Christmas?’.
+</p>
+
+    <p>
+Those same logical constraints you can solve in all those different ways to get
+some really really cool stuff.</p>
+
+</blockquote>
+<p>If the facts you're dealing with have probability you can go to the probability
+paradigm and use a language like <a href="https://dtai.cs.kuleuven.be/problog/">ProbLog</a>.
+The tutorial on ProbLog's website starts off with tossing coins and takes you
+through to Bayesian networks.</p>
+<p>The language <a href="https://tryapl.org/">APL</a> is array-oriented. That
+is, anything you can do on a single number you can do on an array of any
+dimension: no loops required. APL also represents all of its primitive functions
+mnemonically by using unique glyphs. E.g. the glyph to represent natural log is
+⍟, which resembles a cross-section of a log! The ease of working with arrays
+combined with such terseness enables concise expressesion of computation. Aaron
+Hsu remarks in
+<a href="https://www.sacrideo.us/un-structured-programming/">this blog post</a> that in APL
+he can make multiple sketches of approaching a problem and view them all at once
+on the screen. I think this quote from A. N. Whitehead neatly sums this up:</p>
+<blockquote cite="https:&#x2F;&#x2F;quod.lib.umich.edu&#x2F;u&#x2F;umhistmath&#x2F;AAW5995.0001.001">
+
+    <p>By relieving the brain of all unnecessary work, a good notation sets it free to
+concentrate on more advanced problems, and in effect increases the mental power
+of the race.</p>
+
+</blockquote>
+<p>Some languages like
+<a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a> are
+multi-paradigm. One can write in the (prototype-based) object-oriented style by
+defining properties and methods in a function or class and then instantiating
+them. Or write in the functional style as functions are first-class citizens,
+they can be treated as data as well, so you can store them in variables and pass
+them around like any other type.</p>
+<p>Personally, I like to use the functional approach when I can. I understand
+when object-oriented succeeds, but I believe that using lots of small
+<a href="https://www.30secondsofcode.org/articles/s/javascript-pure-functions">pure functions</a>
+leads to more predictable and testable code.</p>
+<h2 id="in-spoken-languages">In Spoken Languages</h2>
+<p>I view languages as tools of expression. What can be said in one might be more
+easily expressed in another. Just the blurb of the book <cite>Schottenfreude:
+German Words for the Human Condition</cite> stated things that I've never thought
+of expressing:</p>
+<blockquote cite="https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;17707491-schottenfreude">
+
+    <p>In what other language but German could you construct <em>le mot juste</em> for
+a secret love of bad foods, the inability to remember jokes, Sunday-afternoon
+depression, the urge to yawn, the glee of gossip, reassuring your hairdresser,
+delight at the changing of the seasons, the urge to hoard, or the ineffable
+pleasure of a cold pillow?</p>
+
+</blockquote>
+<p>This blurb also reminds me of
+<a href="https://www.dictionaryofobscuresorrows.com/archive">The Dictionary of Obscure Sorrows</a>
+where the words denote specific experiences. Having these words makes it easier
+to talk about these experiences. One example is sonder: the realisation that
+everyone has a story (although I do not believe this is a sorrow but rather
+something to be celebrated, everyone is a main character).</p>
+<p><a href="https://lojban.io">Lojban</a> is an artificial language and its grammar is
+completely different to anything I've seen. It's inspired by predicate logic,
+being mainly made up of relations, arguments, and helper-particles. There are no
+nouns, verbs, or any part of speech you'd expect from a natural
+language, but Lojban uses relations to act as them depending on the sentence. By
+design, Lojban is syntactically unambiguous, culturally neutral, has a rich
+attitudinal system for expressing emotions, and more that I won't mention in
+this post.</p>
+<p>I think its syntactic unambiguity makes it a good auxiliary language when
+precision is required. There was actually a
+<a href="https://mail.lojban.org/lists/lojban-list/msg11837.html">lobby</a> for it to be
+used this way in the European Patent Office.</p>
+<p>I believe that the <a href="https://en.wikipedia.org/wiki/Linguistic_relativity">Sapir-Whorf hypothesis</a> is true in a weak sense, that languages influence the
+thought of the speaker. I currently know a decent amount of Hungarian, and I'm
+learning Lojban. I believe that this knowledge has increased my expressive power
+and how I structure my thoughts.</p>
+<h2 id="in-summary">In Summary</h2>
+<p>These lists could go on and on. I hope now that you can look at any discipline
+and see the different tools that can be used.</p>
+<p>The takeaway is that even if you mostly use one tool, I believe that you will
+benefit from knowing that other tools exist. That way you can call on this
+knowledge when facing wicked problems.</p>
+
+</article>
+
+        </main>
+        <hr>
+        <footer>Created with <a href="https://www.getzola.org/">Zola</a></footer>
+    </div>
+</body>
+</html>

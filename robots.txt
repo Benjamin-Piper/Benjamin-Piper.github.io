@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://Benjamin-Piper.github.io/sitemap.xml
