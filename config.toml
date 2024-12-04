@@ -5,5 +5,7 @@ description = "I write my thoughts here."
 
 compile_sass = true
 
+generate_feeds = true
+
 [extra]
 author = "Benjamin Piper"
