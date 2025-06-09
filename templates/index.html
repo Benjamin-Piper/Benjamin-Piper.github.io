@@ -11,9 +11,9 @@
 {% endblock %}
 
 {% block content %}
-<ul>
+<ul id="post-links">
     {% for post in section.pages %}
-    <li class="post-link">
+    <li>
         <a href="{{ post.permalink | safe}}">{{ post.title }}</a>
         <small>{{ macros::format_date(date=post.date) }}</small>
     </li>

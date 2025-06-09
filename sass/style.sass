@@ -10,6 +10,7 @@ $spacing: 2rem
 body
     background-color: #F1F5F9
     color: $text-color
+    text-wrap: pretty
 
 .wrapper
     padding: 0 0.5rem
@@ -40,10 +41,12 @@ h1#my-name
 a
     color: $accent-color
     text-decoration: none
+    word-wrap: break-word
 
-ul
-    li.post-link
-        list-style-type: none
+ul#post-links
+    padding-left: 0
+    list-style-type: none
+    li
         margin-bottom: $spacing / 2
 
 blockquote
@@ -61,6 +64,16 @@ details
         padding: 0.25rem
         background: hsl(210, 15%, 90%)
 
+figure
+    margin: 1.75rem 0
+    border: 0.1rem solid $heading-color
+    padding: 0.5rem
+    text-align: center
+    max-width: 15rem
+    height: fit-content
+    img
+        width: 100%
+ 
 .acrostic
     color: $accent-color
     font-weight: 700
@@ -75,6 +88,15 @@ details
     margin-top: 0.5rem
     margin-bottom: 1rem
 
+.row
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    @media screen and (max-width: 50rem)
+        flex-flow: column nowrap
+    @media only screen and (min-width: 50rem)
+        flex-flow: row nowrap
+     
 .video-container
     position: relative
     width: 100%
